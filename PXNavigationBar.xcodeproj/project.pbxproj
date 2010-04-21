@@ -11,6 +11,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D225B6F2117F7DBD00D1C9BD /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = D225B6F1117F7DBD00D1C9BD /* navBar.png */; };
+		D24188B4117F841800FE08A8 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = D24188B3117F841800FE08A8 /* README.markdown */; };
 		D26D0ACB117CC00E002A9F52 /* BackButtonNormalLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC5117CC00E002A9F52 /* BackButtonNormalLeft.png */; };
 		D26D0ACC117CC00E002A9F52 /* BackButtonNormalMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC6117CC00E002A9F52 /* BackButtonNormalMiddle.png */; };
 		D26D0ACD117CC00E002A9F52 /* BackButtonNormalRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC7117CC00E002A9F52 /* BackButtonNormalRight.png */; };
@@ -30,7 +31,6 @@
 		D2B59F031128201500956F2D /* PXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B59F021128201500956F2D /* PXNavigationBar.m */; };
 		D2B5A03B11283AE400956F2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B5A03911283AE400956F2D /* InfoPlist.strings */; };
 		D2B5A03E11283AE800956F2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B5A03C11283AE800956F2D /* MainMenu.xib */; };
-		D2E92AC111293EDF003EB345 /* TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2E92AC011293EDF003EB345 /* TODO.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +45,7 @@
 		8D1107310486CEB800E47090 /* PXNavigationBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PXNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* PXNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D225B6F1117F7DBD00D1C9BD /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navBar.png; path = Resources/images/navBar.png; sourceTree = "<group>"; };
+		D24188B3117F841800FE08A8 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		D26D0AC5117CC00E002A9F52 /* BackButtonNormalLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonNormalLeft.png; path = Resources/images/BackButtonNormalLeft.png; sourceTree = "<group>"; };
 		D26D0AC6117CC00E002A9F52 /* BackButtonNormalMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonNormalMiddle.png; path = Resources/images/BackButtonNormalMiddle.png; sourceTree = "<group>"; };
 		D26D0AC7117CC00E002A9F52 /* BackButtonNormalRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonNormalRight.png; path = Resources/images/BackButtonNormalRight.png; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				D2E92AC011293EDF003EB345 /* TODO.rtf */,
+				D24188B3117F841800FE08A8 /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -241,6 +243,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				D225B71E117F7ED400D1C9BD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -276,7 +279,6 @@
 			files = (
 				D2B5A03B11283AE400956F2D /* InfoPlist.strings in Resources */,
 				D2B5A03E11283AE800956F2D /* MainMenu.xib in Resources */,
-				D2E92AC111293EDF003EB345 /* TODO.rtf in Resources */,
 				D26D0ACB117CC00E002A9F52 /* BackButtonNormalLeft.png in Resources */,
 				D26D0ACC117CC00E002A9F52 /* BackButtonNormalMiddle.png in Resources */,
 				D26D0ACD117CC00E002A9F52 /* BackButtonNormalRight.png in Resources */,
@@ -290,10 +292,27 @@
 				D26D0ADB117CC045002A9F52 /* RightNavButton.png in Resources */,
 				D26D0ADC117CC045002A9F52 /* RightNavButtonPressed.png in Resources */,
 				D225B6F2117F7DBD00D1C9BD /* navBar.png in Resources */,
+				D24188B4117F841800FE08A8 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D225B71E117F7ED400D1C9BD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APPLEDOC=/Users/alexrozanski/Development/Xcode/osx/Documentation/appledoc\n\n#THE OUTPUT DIRECTORY HAS ITS CONTENTS REMOVED ON BUILD!\n\n#$APPLEDOC -p \"$PROJECT_NAME\" -i $SOURCE_ROOT/_privateheaders -o /Users/alexrozanski/Development/Xcode/osx/Documentation/output/PXNavigationBar/ -t \"/Library/Application Support/appledoc\"  -c $SOURCE_ROOT/Doxyfile --date-time-template \"Last updated: %Y-%m-%d\" --xhtml\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
