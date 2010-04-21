@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AppDelegate.m */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D225B6F2117F7DBD00D1C9BD /* navBar.png in Resources */ = {isa = PBXBuildFile; fileRef = D225B6F1117F7DBD00D1C9BD /* navBar.png */; };
+		D26D0ACB117CC00E002A9F52 /* BackButtonNormalLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC5117CC00E002A9F52 /* BackButtonNormalLeft.png */; };
+		D26D0ACC117CC00E002A9F52 /* BackButtonNormalMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC6117CC00E002A9F52 /* BackButtonNormalMiddle.png */; };
+		D26D0ACD117CC00E002A9F52 /* BackButtonNormalRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC7117CC00E002A9F52 /* BackButtonNormalRight.png */; };
+		D26D0ACE117CC00E002A9F52 /* BackButtonPressedLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC8117CC00E002A9F52 /* BackButtonPressedLeft.png */; };
+		D26D0ACF117CC00E002A9F52 /* BackButtonPressedMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AC9117CC00E002A9F52 /* BackButtonPressedMiddle.png */; };
+		D26D0AD0117CC00E002A9F52 /* BackButtonPressedRight.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0ACA117CC00E002A9F52 /* BackButtonPressedRight.png */; };
+		D26D0AD7117CC045002A9F52 /* LeftNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AD1117CC045002A9F52 /* LeftNavButton.png */; };
+		D26D0AD8117CC045002A9F52 /* LeftNavButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AD2117CC045002A9F52 /* LeftNavButtonPressed.png */; };
+		D26D0AD9117CC045002A9F52 /* NavButtonLeftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AD3117CC045002A9F52 /* NavButtonLeftArrow.png */; };
+		D26D0ADA117CC045002A9F52 /* NavButtonRightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AD4117CC045002A9F52 /* NavButtonRightArrow.png */; };
+		D26D0ADB117CC045002A9F52 /* RightNavButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AD5117CC045002A9F52 /* RightNavButton.png */; };
+		D26D0ADC117CC045002A9F52 /* RightNavButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = D26D0AD6117CC045002A9F52 /* RightNavButtonPressed.png */; };
+		D26D0ADF117CC058002A9F52 /* PXNavigationLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D0ADE117CC058002A9F52 /* PXNavigationLevel.m */; };
+		D26D0AE4117CC061002A9F52 /* PXBackButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D0AE1117CC061002A9F52 /* PXBackButtonCell.m */; };
+		D26D0AE5117CC061002A9F52 /* PXNavigationButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D26D0AE3117CC061002A9F52 /* PXNavigationButtonCell.m */; };
+		D2B59F0011281BFF00956F2D /* PXNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B59EFF11281BFF00956F2D /* PXNavigationItem.m */; };
+		D2B59F031128201500956F2D /* PXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B59F021128201500956F2D /* PXNavigationBar.m */; };
+		D2B5A03B11283AE400956F2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2B5A03911283AE400956F2D /* InfoPlist.strings */; };
+		D2B5A03E11283AE800956F2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2B5A03C11283AE800956F2D /* MainMenu.xib */; };
+		D2E92AC111293EDF003EB345 /* TODO.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2E92AC011293EDF003EB345 /* TODO.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3D80F4B6AC300CF3369 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* PXNavigationBar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXNavigationBar_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* PXNavigationBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PXNavigationBar-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PXNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D225B6F1117F7DBD00D1C9BD /* navBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = navBar.png; path = Resources/images/navBar.png; sourceTree = "<group>"; };
+		D26D0AC5117CC00E002A9F52 /* BackButtonNormalLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonNormalLeft.png; path = Resources/images/BackButtonNormalLeft.png; sourceTree = "<group>"; };
+		D26D0AC6117CC00E002A9F52 /* BackButtonNormalMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonNormalMiddle.png; path = Resources/images/BackButtonNormalMiddle.png; sourceTree = "<group>"; };
+		D26D0AC7117CC00E002A9F52 /* BackButtonNormalRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonNormalRight.png; path = Resources/images/BackButtonNormalRight.png; sourceTree = "<group>"; };
+		D26D0AC8117CC00E002A9F52 /* BackButtonPressedLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonPressedLeft.png; path = Resources/images/BackButtonPressedLeft.png; sourceTree = "<group>"; };
+		D26D0AC9117CC00E002A9F52 /* BackButtonPressedMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonPressedMiddle.png; path = Resources/images/BackButtonPressedMiddle.png; sourceTree = "<group>"; };
+		D26D0ACA117CC00E002A9F52 /* BackButtonPressedRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BackButtonPressedRight.png; path = Resources/images/BackButtonPressedRight.png; sourceTree = "<group>"; };
+		D26D0AD1117CC045002A9F52 /* LeftNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftNavButton.png; path = Resources/images/LeftNavButton.png; sourceTree = "<group>"; };
+		D26D0AD2117CC045002A9F52 /* LeftNavButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftNavButtonPressed.png; path = Resources/images/LeftNavButtonPressed.png; sourceTree = "<group>"; };
+		D26D0AD3117CC045002A9F52 /* NavButtonLeftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavButtonLeftArrow.png; path = Resources/images/NavButtonLeftArrow.png; sourceTree = "<group>"; };
+		D26D0AD4117CC045002A9F52 /* NavButtonRightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavButtonRightArrow.png; path = Resources/images/NavButtonRightArrow.png; sourceTree = "<group>"; };
+		D26D0AD5117CC045002A9F52 /* RightNavButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightNavButton.png; path = Resources/images/RightNavButton.png; sourceTree = "<group>"; };
+		D26D0AD6117CC045002A9F52 /* RightNavButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightNavButtonPressed.png; path = Resources/images/RightNavButtonPressed.png; sourceTree = "<group>"; };
+		D26D0ADD117CC058002A9F52 /* PXNavigationLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXNavigationLevel.h; path = Classes/PXNavigationLevel.h; sourceTree = "<group>"; };
+		D26D0ADE117CC058002A9F52 /* PXNavigationLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXNavigationLevel.m; path = Classes/PXNavigationLevel.m; sourceTree = "<group>"; };
+		D26D0AE0117CC061002A9F52 /* PXBackButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXBackButtonCell.h; path = Classes/PXBackButtonCell.h; sourceTree = "<group>"; };
+		D26D0AE1117CC061002A9F52 /* PXBackButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXBackButtonCell.m; path = Classes/PXBackButtonCell.m; sourceTree = "<group>"; };
+		D26D0AE2117CC061002A9F52 /* PXNavigationButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXNavigationButtonCell.h; path = Classes/PXNavigationButtonCell.h; sourceTree = "<group>"; };
+		D26D0AE3117CC061002A9F52 /* PXNavigationButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXNavigationButtonCell.m; path = Classes/PXNavigationButtonCell.m; sourceTree = "<group>"; };
+		D2B59EFE11281BFE00956F2D /* PXNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXNavigationItem.h; path = Classes/PXNavigationItem.h; sourceTree = "<group>"; };
+		D2B59EFF11281BFF00956F2D /* PXNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXNavigationItem.m; path = Classes/PXNavigationItem.m; sourceTree = "<group>"; };
+		D2B59F011128201500956F2D /* PXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXNavigationBar.h; path = Classes/PXNavigationBar.h; sourceTree = "<group>"; };
+		D2B59F021128201500956F2D /* PXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXNavigationBar.m; path = Classes/PXNavigationBar.m; sourceTree = "<group>"; };
+		D2B5A03A11283AE400956F2D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2B5A03D11283AE800956F2D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2E92AC011293EDF003EB345 /* TODO.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = TODO.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* AppDelegate.m */,
+				D2B59EFA11281BB400956F2D /* PXNavigationBar */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PXNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PXNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D2E92AC011293EDF003EB345 /* TODO.rtf */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PXNavigationBar;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* PXNavigationBar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* PXNavigationBar-Info.plist */,
+				D2CCBF9D112B62160087127D /* Images */,
+				D2B5A03911283AE400956F2D /* InfoPlist.strings */,
+				D2B5A03C11283AE800956F2D /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B59EFA11281BB400956F2D /* PXNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D2B59F011128201500956F2D /* PXNavigationBar.h */,
+				D2B59F021128201500956F2D /* PXNavigationBar.m */,
+				D2B5A02D112839BB00956F2D /* Model */,
+				D2E92B15112953B0003EB345 /* Custom Cells */,
+			);
+			name = PXNavigationBar;
+			sourceTree = "<group>";
+		};
+		D2B5A02D112839BB00956F2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D26D0ADD117CC058002A9F52 /* PXNavigationLevel.h */,
+				D26D0ADE117CC058002A9F52 /* PXNavigationLevel.m */,
+				D2B59EFE11281BFE00956F2D /* PXNavigationItem.h */,
+				D2B59EFF11281BFF00956F2D /* PXNavigationItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D2CCBF9D112B62160087127D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D225B6F1117F7DBD00D1C9BD /* navBar.png */,
+				D2CCBF9E112B62240087127D /* Back Button */,
+				D2CCC011112BF1740087127D /* Nav Buttons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D2CCBF9E112B62240087127D /* Back Button */ = {
+			isa = PBXGroup;
+			children = (
+				D26D0AC5117CC00E002A9F52 /* BackButtonNormalLeft.png */,
+				D26D0AC6117CC00E002A9F52 /* BackButtonNormalMiddle.png */,
+				D26D0AC7117CC00E002A9F52 /* BackButtonNormalRight.png */,
+				D26D0AC8117CC00E002A9F52 /* BackButtonPressedLeft.png */,
+				D26D0AC9117CC00E002A9F52 /* BackButtonPressedMiddle.png */,
+				D26D0ACA117CC00E002A9F52 /* BackButtonPressedRight.png */,
+			);
+			name = "Back Button";
+			sourceTree = "<group>";
+		};
+		D2CCC011112BF1740087127D /* Nav Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D26D0AD1117CC045002A9F52 /* LeftNavButton.png */,
+				D26D0AD2117CC045002A9F52 /* LeftNavButtonPressed.png */,
+				D26D0AD3117CC045002A9F52 /* NavButtonLeftArrow.png */,
+				D26D0AD4117CC045002A9F52 /* NavButtonRightArrow.png */,
+				D26D0AD5117CC045002A9F52 /* RightNavButton.png */,
+				D26D0AD6117CC045002A9F52 /* RightNavButtonPressed.png */,
+			);
+			name = "Nav Buttons";
+			sourceTree = "<group>";
+		};
+		D2E92B15112953B0003EB345 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D26D0AE0117CC061002A9F52 /* PXBackButtonCell.h */,
+				D26D0AE1117CC061002A9F52 /* PXBackButtonCell.m */,
+				D26D0AE2117CC061002A9F52 /* PXNavigationButtonCell.h */,
+				D26D0AE3117CC061002A9F52 /* PXNavigationButtonCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PXNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PXNavigationBar" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXNavigationBar;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PXNavigationBar;
+			productReference = 8D1107320486CEB800E47090 /* PXNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PXNavigationBar" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PXNavigationBar */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PXNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B5A03B11283AE400956F2D /* InfoPlist.strings in Resources */,
+				D2B5A03E11283AE800956F2D /* MainMenu.xib in Resources */,
+				D2E92AC111293EDF003EB345 /* TODO.rtf in Resources */,
+				D26D0ACB117CC00E002A9F52 /* BackButtonNormalLeft.png in Resources */,
+				D26D0ACC117CC00E002A9F52 /* BackButtonNormalMiddle.png in Resources */,
+				D26D0ACD117CC00E002A9F52 /* BackButtonNormalRight.png in Resources */,
+				D26D0ACE117CC00E002A9F52 /* BackButtonPressedLeft.png in Resources */,
+				D26D0ACF117CC00E002A9F52 /* BackButtonPressedMiddle.png in Resources */,
+				D26D0AD0117CC00E002A9F52 /* BackButtonPressedRight.png in Resources */,
+				D26D0AD7117CC045002A9F52 /* LeftNavButton.png in Resources */,
+				D26D0AD8117CC045002A9F52 /* LeftNavButtonPressed.png in Resources */,
+				D26D0AD9117CC045002A9F52 /* NavButtonLeftArrow.png in Resources */,
+				D26D0ADA117CC045002A9F52 /* NavButtonRightArrow.png in Resources */,
+				D26D0ADB117CC045002A9F52 /* RightNavButton.png in Resources */,
+				D26D0ADC117CC045002A9F52 /* RightNavButtonPressed.png in Resources */,
+				D225B6F2117F7DBD00D1C9BD /* navBar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */,
+				D2B59F0011281BFF00956F2D /* PXNavigationItem.m in Sources */,
+				D2B59F031128201500956F2D /* PXNavigationBar.m in Sources */,
+				D26D0ADF117CC058002A9F52 /* PXNavigationLevel.m in Sources */,
+				D26D0AE4117CC061002A9F52 /* PXBackButtonCell.m in Sources */,
+				D26D0AE5117CC061002A9F52 /* PXNavigationButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2B5A03911283AE400956F2D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B5A03A11283AE400956F2D /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2B5A03C11283AE800956F2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2B5A03D11283AE800956F2D /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PXNavigationBar_Prefix.pch;
+				INFOPLIST_FILE = "PXNavigationBar-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PXNavigationBar;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PXNavigationBar_Prefix.pch;
+				INFOPLIST_FILE = "PXNavigationBar-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = PXNavigationBar;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PXNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PXNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
